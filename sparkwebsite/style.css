@@ -1,0 +1,90 @@
+body {
+background-color: #ceebfd;
+}
+#header1 {
+    position: relative;
+    font-family: 'Pangolin';
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+
+#intro {
+    position: relative;
+    font-family: 'Pangolin';
+    display: inline-block;
+    text-align: left;
+    padding: 30px; 
+    width: 500px;
+    background-color: #def2ff;
+}
+
+#fulltext {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    
+}
+
+#linksalign {
+    vertical-align: top;
+    display: inline-block;
+    justify-content: space-around;
+    
+}
+#links {
+    font-family: 'Pangolin';
+    position: absolute;
+    bottom: -50px;
+    right: 250px;
+}
+
+#butterflies {
+    position: absolute;
+    bottom: -90px;
+    right: -50px;
+}
+
+#star {
+    position: absolute;
+    top: -40px;
+    left: -20px;
+    transform:rotate(45deg)
+}
+
+#littlestar{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    transform:rotate(45deg)
+}
+
+#littlestar2{
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    transform:rotate(45deg)
+}
+
+#lightning {
+    position: absolute;
+    bottom: 30px;
+    right: -95px;
+    transform:rotate(-25deg)
+}
+
+#heartsticker {
+    position: absolute;
+    top: -140px;
+    right: -40px;
+    transform:rotate(25deg)
+}
+
+#flowers {
+    position: absolute;
+    top: 150px;
+    left: -120px;
+    transform:rotate(-25deg)
+}
